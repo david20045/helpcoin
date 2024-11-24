@@ -17,7 +17,7 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 # Получение переменных окружения
-TELEGRAM_API_TOKEN = os.getenv('TELEGRAM_API_TOKEN')
+TELEGRAM_API_TOKEN = os.getenv('7820179260:AAE9gB3kmhGPf4NNE99qQHpH5aia16BiiSo')
 WEB_APP_URL = os.getenv('WEB_APP_URL')  # Например, https://your-project.railway.app/web_app/index.html
 
 def start(update: Update, context: CallbackContext) -> None:
